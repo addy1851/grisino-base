@@ -1,1 +1,47 @@
-
+{
+	"version": 122,
+	"GeneralData":
+	{
+		"disableBaseDamage": false,
+		"disableContainerDamage": false,
+		"disableRespawnDialog": false,
+		"disableRespawnInUnconsciousness": false
+	},
+    "PlayerData":
+	{
+		"disablePersonalLight": false,
+        "spawnGearPresetFiles": ["custom/vanillaplus_loadout.json"],
+		"StaminaData":
+		{
+			"sprintStaminaModifierErc": 0.01,
+			"sprintStaminaModifierCro": 0.01,
+			"staminaWeightLimitThreshold": 60000.0,
+			"staminaMax": 100.0,
+			"staminaKgToStaminaPercentPenalty": 0.01,
+			"staminaMinCap": 5.0,
+			"sprintSwimmingStaminaModifier": 0.01,
+			"sprintLadderStaminaModifier": 0.01,
+			"meleeStaminaModifier": 0.01,
+			"obstacleTraversalStaminaModifier": 0.01,
+			"holdBreathStaminaModifier": 0.01
+		},
+		"ShockHandlingData":
+		{
+			"shockRefillSpeedConscious": 5.0,
+			"shockRefillSpeedUnconscious": 1.0,
+			"allowRefillSpeedModifier": true
+		},
+		"MovementData":
+		{
+			"timeToStrafeJog": 0.1,
+			"rotationSpeedJog": 0.3,
+			"timeToSprint": 0.45,
+			"timeToStrafeSprint": 0.3,
+			"rotationSpeedSprint": 0.15,
+			"allowStaminaAffectInertia": true
+		},
+		"DrowningData":
+		{
+			"staminaDepletionSpeed": 0.01,
+			"healthDepletionSpeed": 20.0,
+			"shockDepletionSpeed": 0.01
